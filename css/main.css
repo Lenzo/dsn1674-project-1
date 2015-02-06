@@ -1,0 +1,14 @@
+html{
+  font-family: georgia;
+}
+
+h1,h2,h3{
+  font-family: 'Sigmar one', cursive;
+  color: #b32f52;
+}
+
+blockquote{
+  font-style: 'italic';
+  text-align: 'center';
+  color: #b2a215
+}
