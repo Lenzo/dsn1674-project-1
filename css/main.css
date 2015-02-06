@@ -7,8 +7,21 @@ h1,h2,h3{
   color: #b32f52;
 }
 
+.big-quote{
+  font-size: 3.5em;
+  text-align: center;
+}
+
 blockquote{
-  font-style: 'italic';
-  text-align: 'center';
-  color: #b2a215
+  font-style: italic;
+  text-align: center;
+  color: #b2a215;
+}
+
+figcaption{
+text-align: center;  
+}
+
+.italic{
+  font-style: italic;
 }
