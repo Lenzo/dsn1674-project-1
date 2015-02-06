@@ -2,6 +2,31 @@ html{
   font-family: georgia;
 }
 
+header{
+  background-color: #ffe524;
+  padding-bottom: .5em;
+  text-align: center;
+}
+
+nav li{
+  display: inline;
+}
+
+nav a{
+  color: white;
+  background-color: #b2a215;
+  padding: .5em;
+  border-radius: .1em;
+}
+
+nav a:hover{
+  
+}
+
+ol{
+  margin: 0em;
+}
+
 h1,h2,h3{
   font-family: 'Sigmar one', cursive;
   color: #b32f52;
@@ -19,7 +44,7 @@ blockquote{
 }
 
 figcaption{
-text-align: center;  
+text-align: center;
 }
 
 .italic{
