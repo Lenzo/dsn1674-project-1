@@ -6,6 +6,7 @@ html{
 body{
   background-color: white;
   margin: 0px;
+  line-height:1.5em;
 }
 
 header{
@@ -29,12 +30,12 @@ nav a{
   border-radius: .1em;
 }
 
-nav a:hover{
-  background-color:#b32f52;
+a:link{
+  text-decoration: none;
 }
 
 nav a:hover{
-
+  background-color:#b32f52;
 }
 
 ol{
@@ -44,6 +45,12 @@ ol{
 h1,h2,h3{
   font-family: 'Sigmar one', cursive;
   color: #b32f52;
+}
+
+h2{
+  border-top: 5px solid #ffe524;
+  padding: 1.5em 0em .5em 0em;
+  margin: 0em;
 }
 
 blockquote{
@@ -57,11 +64,26 @@ blockquote{
   font-size: 3.5em;
   text-align: center;
   display: block;
-
+  padding-top: .5em;
 }
 
 cite{
 display: block;
+}
+
+figure{
+background-color: #fffce0;
+border:2px solid #b2a215;
+border-radius: 9px;
+padding:.5em .5em .5em .5em;
+}
+
+figure:img{
+
+}
+
+img{
+  width:100%;
 }
 
 figcaption{
@@ -70,4 +92,13 @@ text-align: center;
 
 .italic{
   font-style: italic;
+}
+
+dd{
+  margin:0;
+  line-height:1.5em;
+}
+
+dt{
+  font-weight:bold;
 }
